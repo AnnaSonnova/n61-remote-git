@@ -1,0 +1,8 @@
+html{
+    --maximun:1fr;
+    --minimun:3
+}
+.gride{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(50ch,1fr));
+}
